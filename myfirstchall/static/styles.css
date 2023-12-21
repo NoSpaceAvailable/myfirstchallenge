@@ -1,0 +1,29 @@
+/* external style.css */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+body {
+    /* Image source destination */
+    background-image: url('../static/background.png');
+    /* Fully cover the background */
+    background-size: cover;
+    /* Centralise the background image */
+    background-position: top;
+    /* Do not repeat the background image */
+    background-repeat: no-repeat;
+}
+#content {
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    margin-top: 250px;
+    padding: 50px;
+    color: black;
+}
+
+footer {
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    position: fixed;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
